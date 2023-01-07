@@ -7,23 +7,36 @@ to determine if the new line should replace either of them. This process continu
 
 
 Compilation and Running Instructions:
+
 Ada:
+
 Compile: gnatmake ScreenFormat.adb
 Run: ScreenFormat
+
 Fortran:
+
 Compile: gfortran ScreenFormat.f95
 Run: ./a.out
+
 Cobol:
+
 Compile: cobc -x ScreenFormat.cob
 Run: ./ScreenFormat
+
 Julia:
+
 Make executable: chmod u+x ScreenReader.jl
 Compile and Run: ScreenReader.jl
+
 Lisp:
+
 Make Executable: chmod u+x ScreenFormatter.lisp
 Compile and Run: ScreenFormatter.lisp
+
 NOTE: For Lisp, the file name must be entered surrounded by double quotes.
 For example: "ExampleFileName"
+
 Rust:
+
 Concatenate: cat main.rs
 Compile and Run: cargo run ScreenFormatter
